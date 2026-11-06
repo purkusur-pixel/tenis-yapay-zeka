@@ -1,0 +1,75 @@
+Atış: 11,724  |  Maç: 19  |  Özellik: 30  |  Sınıf: 18
+  Çoğunluk sınıfı         0.1 sn   Top-1 %9.91
+  Frekans tablosu         0.8 sn   Top-1 %19.35
+  Lojistik regresyon      9.5 sn   Top-1 %21.23
+  Random Forest          14.3 sn   Top-1 %21.18
+  XGBoost                41.8 sn   Top-1 %21.39
+  LightGBM               39.5 sn   Top-1 %21.44
+  MLP (sinir ağı)        11.8 sn   Top-1 %21.86
+
+=== MAÇ BAZLI 5-KAT ÇAPRAZ DOĞRULAMA (tüm atışlar, katlar dışı) ===
+                   Top-1 % Top-1 GA95 Top-3 % Kaba 9 sınıf % Derinlik %  Yön % Ort. hata (m) Beklenen hata (m) Log-loss  Süre (sn)
+Çoğunluk sınıfı      9.911   9.4–10.5  27.857         17.955     52.141 38.477         2.980             3.089    2.619      0.060
+Frekans tablosu     19.353  18.6–20.1  48.644         31.346     64.560 47.219         2.384             2.580    2.392      0.750
+Lojistik regresyon  21.230  20.5–22.0  52.371         32.395     66.982 46.818         2.308             2.638    2.277      9.504
+Random Forest       21.179  20.4–21.9  51.706         32.369     66.778 48.030         2.295             2.554    2.232     14.289
+XGBoost             21.392  20.7–22.1  52.465         32.591     67.434 47.799         2.239             2.499    2.244     41.788
+LightGBM            21.443  20.7–22.2  52.158         32.796     67.434 48.098         2.262             2.489    2.258     39.496
+MLP (sinir ağı)     21.861  21.1–22.6  53.335         34.016     67.195 48.840         2.230             2.529    2.201     11.826
+
+En iyi ML modeli (Top-1): MLP (sinir ağı)
+
+=== ALT KIRILIMLAR ===
+          Model             Alt küme    n  Top-1 %  Top-3 %  Kaba 9 sınıf %  Ort. hata (m)
+Frekans tablosu               Servis 2594   38.126   96.068          56.399          1.117
+Frekans tablosu Ralli (servis hariç) 9130   14.020   35.170          24.228          2.744
+MLP (sinir ağı)               Servis 2594   41.480   96.222          55.050          1.056
+MLP (sinir ağı) Ralli (servis hariç) 9130   16.287   41.150          28.039          2.564
+MLP (sinir ağı)        Erkekler_Best 5595   22.306   52.904          33.691          2.304
+MLP (sinir ağı)         Erkekler_Low 1077   21.820   57.382          38.626          2.122
+MLP (sinir ağı)      Erkekler_Middle 1205   24.315   51.701          33.029          2.169
+MLP (sinir ağı)        Kadınlar_Best 1309   18.564   51.948          32.468          2.270
+MLP (sinir ağı)         Kadınlar_Low  856   21.145   56.192          36.682          2.006
+MLP (sinir ağı)      Kadınlar_Middle 1682   21.581   52.973          32.699          2.183
+
+=== McNEMAR (kesin binom) + HOLM DÜZELTMESİ — n = 11724 ===
+           Model A            Model B  A doğru/B yanlış  A yanlış/B doğru  p (ham)  p (Holm) Anlamlı (α=0,05)
+   Frekans tablosu Lojistik regresyon              1159              1379    0.000     0.000             Evet
+   Frekans tablosu      Random Forest               898              1112    0.000     0.000             Evet
+   Frekans tablosu            XGBoost               909              1148    0.000     0.000             Evet
+   Frekans tablosu           LightGBM               924              1169    0.000     0.000             Evet
+   Frekans tablosu    MLP (sinir ağı)              1115              1409    0.000     0.000             Evet
+Lojistik regresyon      Random Forest               917               911    0.907     1.000            Hayır
+Lojistik regresyon            XGBoost               966               985    0.684     1.000            Hayır
+Lojistik regresyon           LightGBM               951               976    0.585     1.000            Hayır
+Lojistik regresyon    MLP (sinir ağı)               743               817    0.065     0.581            Hayır
+     Random Forest            XGBoost               546               571    0.473     1.000            Hayır
+     Random Forest           LightGBM               509               540    0.354     1.000            Hayır
+     Random Forest    MLP (sinir ağı)               816               896    0.056     0.562            Hayır
+           XGBoost           LightGBM               236               242    0.819     1.000            Hayır
+           XGBoost    MLP (sinir ağı)               770               825    0.176     1.000            Hayır
+          LightGBM    MLP (sinir ağı)               791               840    0.235     1.000            Hayır
+
+=== MAÇ BAZLI WILCOXON (n = 19 maç) — referans: MLP (sinir ağı) ===
+                       Karşılaştırma  Ort. fark (puan)  Kazandığı maç  p (ham)  p (Holm)
+   MLP (sinir ağı) − Frekans tablosu             2.165             15    0.001     0.007
+MLP (sinir ağı) − Lojistik regresyon             0.483             13    0.332     0.800
+     MLP (sinir ağı) − Random Forest             0.501             11    0.267     0.800
+           MLP (sinir ağı) − XGBoost             0.327             10    0.309     0.800
+          MLP (sinir ağı) − LightGBM             0.333             13    0.122     0.488
+  ablasyon: Rakip konumu bitti
+  ablasyon: Vuran konumu bitti
+  ablasyon: Vuruş/spin/el bitti
+  ablasyon: Yükseklik+kademe bitti
+  ablasyon: Cinsiyet+kategori bitti
+
+=== ABLASYON (MLP (sinir ağı)) ===
+   Çıkarılan grup  Top-1 %  Top-3 %  Kaba 9 sınıf %  Ort. hata (m)  Log-loss
+    — (tam model)   21.861   53.335          34.016          2.230     2.201
+     Rakip konumu   21.187   50.537          31.440          2.322     2.293
+     Vuran konumu   21.588   51.561          33.316          2.269     2.217
+    Vuruş/spin/el   20.872   52.115          32.856          2.258     2.253
+ Yükseklik+kademe   20.232   50.273          31.073          2.345     2.257
+Cinsiyet+kategori   21.861   53.710          34.092          2.229     2.191
+
+Kaydedildi → /home/claude/tenis_atis_sistemi/cikti/model.joblib

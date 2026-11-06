@@ -1,0 +1,17 @@
+Çıktı,Alt küme,n,Model,İlk-1,Log-kaybı
+Düşme bölgesi,Servis,2594,Koşullu frekans tablosu,37.5%,1.322
+Düşme bölgesi,Servis,2594,XGBoost,40.7%,1.335
+Düşme bölgesi,Ralli,9130,Koşullu frekans tablosu,13.2%,2.700
+Düşme bölgesi,Ralli,9130,XGBoost,13.7%,2.580
+Spin,Servis,2593,Koşullu frekans tablosu,96.2%,0.124
+Spin,Servis,2593,LightGBM,96.3%,0.123
+Spin,Ralli,9129,Koşullu frekans tablosu,85.0%,0.460
+Spin,Ralli,9129,LightGBM,85.6%,0.443
+Yükseklik,Servis,2594,Koşullu frekans tablosu,97.3%,0.086
+Yükseklik,Servis,2594,LightGBM,98.2%,0.086
+Yükseklik,Ralli,9130,Koşullu frekans tablosu,70.8%,0.805
+Yükseklik,Ralli,9130,LightGBM,70.7%,0.807
+Kademe,Servis,2594,Koşullu frekans tablosu,96.0%,0.118
+Kademe,Servis,2594,XGBoost,97.2%,0.111
+Kademe,Ralli,9130,Koşullu frekans tablosu,89.8%,0.333
+Kademe,Ralli,9130,XGBoost,89.7%,0.310

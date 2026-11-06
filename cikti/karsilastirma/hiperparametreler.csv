@@ -1,0 +1,7 @@
+Model,"Hiperparametreler (önceden sabit, katmanlarda ayarlanmadı)"
+Koşullu frekans tablosu,"P(çıktı | vuran hücresi, rakip hücresi); az veride P(çıktı | vuran hücresi) ve marjinal dağılıma doğru düzleştirme, sözde sayım α = 5"
+Çok terimli lojistik,"Standartlaştırma + L2 düzenlileştirme, C = 0.5, en fazla 3,000 iterasyon (lbfgs)"
+Rastgele orman,"300 ağaç, yaprakta en az 10 vuruş, max_features = √p, tohum 42"
+XGBoost,"300 ağaç, öğrenme oranı 0.05, en fazla derinlik 4, subsample 0.8, colsample_bytree 0.8, min_child_weight 5, L2 (λ) 1.0, hist"
+LightGBM,"300 ağaç, öğrenme oranı 0.03, 15 yaprak, yaprakta en az 20 vuruş, subsample 0.8, colsample_bytree 0.8, L2 (λ) 1.0"
+MLP,"Standartlaştırma + 128 ve 64 nöronlu iki gizli katman, ReLU, Adam (öğrenme oranı 0.001), α = 0.001, erken durdurma (15% doğrulama, 15 iterasyon sabır), en fazla 400 iterasyon"

@@ -1,0 +1,16 @@
+Model A,Model B,A doğru/B yanlış,A yanlış/B doğru,p (ham),p (Holm),"Anlamlı (α=0,05)"
+Frekans tablosu,Lojistik regresyon,1159,1379,1.3635613395880388e-05,0.00014999174735468428,Evet
+Frekans tablosu,Random Forest,898,1112,1.9822205074831393e-06,2.3786646089797672e-05,Evet
+Frekans tablosu,XGBoost,909,1148,1.494319808880254e-07,1.94261575154433e-06,Evet
+Frekans tablosu,LightGBM,924,1169,9.332167750194789e-08,1.3065034850272704e-06,Evet
+Frekans tablosu,MLP (sinir ağı),1115,1409,5.268526262821477e-09,7.902789394232215e-08,Evet
+Lojistik regresyon,Random Forest,917,911,0.9069077547141411,1.0,Hayır
+Lojistik regresyon,XGBoost,966,985,0.6836402610304205,1.0,Hayır
+Lojistik regresyon,LightGBM,951,976,0.5845778229635495,1.0,Hayır
+Lojistik regresyon,MLP (sinir ağı),743,817,0.06453177785579704,0.5807860007021733,Hayır
+Random Forest,XGBoost,546,571,0.47271194780628567,1.0,Hayır
+Random Forest,LightGBM,509,540,0.3543156920784985,1.0,Hayır
+Random Forest,MLP (sinir ağı),816,896,0.056191105774889304,0.561911057748893,Hayır
+XGBoost,LightGBM,236,242,0.8191356953071666,1.0,Hayır
+XGBoost,MLP (sinir ağı),770,825,0.17632003945918326,1.0,Hayır
+LightGBM,MLP (sinir ağı),791,840,0.2346103903932608,1.0,Hayır
