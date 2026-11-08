@@ -180,9 +180,21 @@ komut> cikis                     # Terminate application
 
 ---
 
-## 👥 Author & Citation
+## 🏛 Funding & Citation
 
-* **Principal Investigator:** Hüsnü Canbolat (`husnucanbolat@trabzon.edu.tr`)
-* **Repository:** [purkusur-pixel/tenis-yapay-zeka](https://github.com/purkusur-pixel/tenis-yapay-zeka.git)
-* **Dataset:** 19 Professional Matches, 11,724 Validated Shots.
-* **License:** MIT License.
+<p align="center">
+  <img src="assets/trabzon-universitesi-logo.png" alt="Trabzon Üniversitesi" height="110" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="assets/tubitak-logo.png" alt="TÜBİTAK" height="110" />
+</p>
+
+Bu çalışma, Türkiye Bilimsel ve Teknolojik Araştırma Kurumu (TÜBİTAK) tarafından 1001 Programı – Spor Araştırmaları kapsamında desteklenen 124M890 numaralı "Tenis için Yapay Zekâ Destekli Top Atma Makinesi Üretimi" başlıklı proje kapsamında gerçekleştirilmiştir.
+
+This study was supported by the Scientific and Technological Research Council of Türkiye (TÜBİTAK) under the 1001 Programme – Sports Research (Project No: 124M890) within the scope of the project titled "Production of an Artificial Intelligence-Assisted Ball-Throwing Machine for Tennis".
+
+**Principal Investigator:** Prof. Dr. Serdar Alemdağ  
+**Software Developer:** Hüsnü Canbolat (husnucanbolat@trabzon.edu.tr)  
+**Dataset:** 19 professional tennis matches, 11,724 successful shots.  
+**License:** MIT License — see the [LICENSE](LICENSE) file for details.
+
+If you use this work in your academic or industrial projects, please cite this repository.

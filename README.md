@@ -29,7 +29,7 @@ Ayrıca antrenman kortlarında ve gömülü sistemlerde (Raspberry Pi, mini PC v
 6. [Önhesaplama Motoru (Precomputation Engine)](#-önhesaplama-motoru-precomputation-engine)
 7. [Kurulum ve Çalıştırma Kılavuzu](#-kurulum-ve-çalıştırma-kılavuzu)
 8. [Canlı Konsol Komutları ve Kullanım](#-canlı-konsol-komutları-ve-kullanım)
-9. [Geliştirici ve Atıf Bilgisi](#-geliştirici-ve-atıf-bilgisi)
+9. [Proje Desteği ve Atıf](#-proje-desteği-ve-atıf)
 
 ---
 
@@ -304,11 +304,21 @@ komut> cikis                     # Uygulamayı kapat
 
 ---
 
-## 👥 Geliştirici ve Atıf Bilgisi
+## 🏛 Proje Desteği ve Atıf
 
-* **Proje Sahibi:** Hüsnü Canbolat (`husnucanbolat@trabzon.edu.tr`)
-* **GitHub:** [purkusur-pixel/tenis-yapay-zeka](https://github.com/purkusur-pixel/tenis-yapay-zeka.git)
-* **Veri Kümesi:** 19 profesyonel tenis müsabakası, 11.724 başarılı vuruş.
-* **Lisans:** MIT License.
+<p align="center">
+  <img src="assets/trabzon-universitesi-logo.png" alt="Trabzon Üniversitesi" height="110" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="assets/tubitak-logo.png" alt="TÜBİTAK" height="110" />
+</p>
+
+Bu çalışma, Türkiye Bilimsel ve Teknolojik Araştırma Kurumu (TÜBİTAK) tarafından 1001 Programı – Spor Araştırmaları kapsamında desteklenen 124M890 numaralı "Tenis için Yapay Zekâ Destekli Top Atma Makinesi Üretimi" başlıklı proje kapsamında gerçekleştirilmiştir.
+
+This study was supported by the Scientific and Technological Research Council of Türkiye (TÜBİTAK) under the 1001 Programme – Sports Research (Project No: 124M890) within the scope of the project titled "Production of an Artificial Intelligence-Assisted Ball-Throwing Machine for Tennis".
+
+**Proje Yürütücüsü:** Prof. Dr. Serdar Alemdağ  
+**Yazılım Geliştirici:** Hüsnü Canbolat (husnucanbolat@trabzon.edu.tr)  
+**Veri Kümesi:** 19 profesyonel tenis müsabakası, 11.724 başarılı vuruş.  
+**Lisans:** MIT License — ayrıntılar için [LICENSE](LICENSE) dosyasına bakınız.
 
 Bu çalışmayı akademik veya endüstriyel projelerinizde kullanırsanız lütfen depoya atıfta bulununuz.
